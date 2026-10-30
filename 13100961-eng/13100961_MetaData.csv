@@ -1,0 +1,80 @@
+﻿"Cube Title","Product Id","CANSIM Id",URL,"Cube Notes","Archive Status",Frequency,"Start Reference Period","End Reference Period","Total number of dimensions"
+"Wait time for an initial consultation with a medical specialist in the past 12 months","13100961",,"https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1310096101",1;2,"CURRENT - a cube available to the public and that is current","Occasional","2024-01-01","2024-01-01","5",
+
+"Dimension ID","Dimension name","Dimension Notes","Dimension Definitions"
+"1","Geography",,""
+"2","Gender",3,""
+"3","Age group",,""
+"4","Indicators",6,""
+"5","Characteristics",7;8;9,""
+
+"Dimension ID","Member Name","Classification Code","Member ID","Parent Member ID",Terminated,"Member Notes","Member Definitions"
+"1","Newfoundland and Labrador","[10]","2","1","",,
+"1","Prince Edward Island","[11]","3","1","",,
+"1","Nova Scotia","[12]","4","1","",,
+"1","New Brunswick","[13]","5","1","",,
+"1","Quebec","[24]","6","1","",,
+"1","Ontario","[35]","7","1","",,
+"1","Manitoba","[46]","8","1","",,
+"1","Saskatchewan","[47]","9","1","",,
+"1","Alberta","[48]","10","1","",,
+"1","British Columbia","[59]","11","1","",,
+"1","Canada (excluding territories)","","1","","",,
+"2","Men+","","2","1","",4,
+"2","Women+","","3","1","",5,
+"2","Both genders","","1","","",,
+"3","18 to 44 years","","2","1","",,
+"3","45 to 64 years","","3","1","",,
+"3","65 years and over","","4","1","",,
+"3","Total, 18 years and over","","1","","",,
+"4","Wait time, less than 3 months","","2","1","",,
+"4","Wait time, 3 months to less than 6 months","","3","1","",,
+"4","Wait time, 6 months or more","","4","1","",,
+"4","Total, wait time - medical specialist","","1","","",,
+"4","Satisfaction with wait time - Very satisfied or satisfied","","5","","",,
+"4","Satisfaction with wait time - Dissatisfied or very dissatisfied","","6","","",,
+"4","Life affected by wait time","","7","","",,
+"5","Number of persons","","1","","",,
+"5","Low 95% confidence interval, number of persons","","2","","",,
+"5","High 95% confidence interval, number of persons","","3","","",,
+"5","Percentage","","4","","",,
+"5","Low 95% confidence interval, percentage","","5","","",,
+"5","High 95% confidence interval, percentage","","6","","",,
+"5","Statistically different from the Canada (excluding territories) rate","","7","","",10,
+
+Symbol Legend
+Description,Symbol
+"not available for a specific reference period","..",
+"less than the limit of detection","<LOD",
+"value rounded to 0 (zero) where there is a meaningful distinction between true zero and the value that was rounded","0s",
+"data quality: excellent","A",
+"data quality: very good","B",
+"data quality: good","C",
+"data quality: acceptable","D",
+"use with caution","E",
+"too unreliable to be published","F",
+"not applicable","...",
+"preliminary","p",
+"revised","r",
+"suppressed to meet the confidentiality requirements of the Statistics Act","x",
+"terminated","t",
+
+"Survey Code","Survey Name"
+"5391","Survey on Health Care Access and Experiences - Primary and Specialist Care (SHCAE-PSC)"
+
+"Subject Code","Subject Name"
+"13","Health"
+
+"Note ID",Note
+1,"Source : Survey on Health Care Access and Experiences - Primary and Specialist Care, January 3 to November 3, 2024."
+2,"All estimates in this table are calculated excluding non-response categories ("refusal", "don't know", and "not stated") in the denominator."
+3,"Given that the non-binary population is small, data aggregation to a two-category gender variable is sometimes necessary to protect the confidentiality of responses. In these cases, individuals in the non-binary people category are distributed into the other two gender categories."
+4,"The men+ category includes men, as well as some non-binary people."
+5,"The women+ category includes women, as well as some non-binary people."
+6,"Indicator refers to wait time for the most recent initial consultation with a medical specialist, in the past 12 months. "
+7,"The confidence interval illustrates the degree of variability associated with a rate. Wide confidence intervals indicate high variability, thus, these rates should be interpreted with due caution. When comparing estimates, it is important to use confidence intervals to determine if differences between values are statistically significant."
+8,"Bootstrapping techniques were used to produce the 95% confidence intervals (CIs)."
+9,"Percentages are rounded to the nearest tenth. Numbers are rounded to the nearest hundred."
+10,"This variable provides direction and statistical significance of the difference between estimates (p less than 0.05). A value of 1 means the difference observed is significantly higher, -1 means the difference is significantly lower and 0 means the difference is not statistically significant."
+
+"Correction ID","Correction Date","Correction Note"
